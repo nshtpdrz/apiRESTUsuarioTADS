@@ -23,7 +23,7 @@ namespace apiRESTBdUsuarioTADS.Models
 
         // Definición de cadena de Conexión
         private string cadConn = ConfigurationManager.
-                    ConnectionStrings["bdControlAcceso"].
+                    ConnectionStrings["bdControlAccesoAWS"].
                     ConnectionString;
         private string filtro;
 
